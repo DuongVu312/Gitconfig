@@ -7,7 +7,9 @@
     br = branch
     ci = commit
     s = status
-    ll = log --oneline --graph --all --decorate
+    l = log --oneline
+    ll = "log --graph --pretty=format:'%Cred%h%Creset - %C(yellow)%d%Creset %Cgreen(%cr) %C(bold blue)<%an>%Creset %n%s' --abbrev-commit --date=relative --all"
+    lg = "log --graph --pretty=format:'%Cred%h%Creset - %C(yellow)%d%Creset %Cgreen(%cr) %C(bold blue)<%an>%Creset %n%s' --abbrev-commit --date=relative"
     last = log -1 HEAD
     amend = commit --amend
     ac = "!git add -A && git commit -m"
