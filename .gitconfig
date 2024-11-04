@@ -1,0 +1,19 @@
+[user]
+	email = vuhoaiduong312@example.com
+	name = DuongVu312
+
+[alias]
+    co = checkout
+    br = branch
+    ci = commit
+    s = status
+    ll = log --oneline --graph --all --decorate
+    last = log -1 HEAD
+    amend = commit --amend
+    ac = "!git add -A && git commit -m"
+
+[commit]
+	template = C:\\Users\\admin\\.git-commit-template.txt
+
+[includeIf "gitdir:~/siv-dev/client-work/"]
+    path = ~/siv-dev/client-work/.gitconfig
