@@ -1,0 +1,8 @@
+# Ignore everything
+*
+
+# Do not ignore these specific files
+!.gitconfig
+!.git-commit-template.txt
+!.git
+!.gitignore

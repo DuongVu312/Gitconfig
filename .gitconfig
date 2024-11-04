@@ -5,7 +5,12 @@
 [alias]
     co = checkout
     br = branch
-    ci = commit
+    cm = commit
+    a = add
+    p = push
+    mrg = merge
+    fch = fetch
+    rb = rebase
     s = status
     l = log --oneline
     ll = "log --graph --pretty=format:'%Cred%h%Creset - %C(yellow)%d%Creset %Cgreen(%cr) %C(bold blue)<%an>%Creset %n%s' --abbrev-commit --date=relative --all"

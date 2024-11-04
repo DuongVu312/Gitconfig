@@ -1,6 +1,7 @@
 # Title: (50 characters max)
 
 # Description: Provide a more detailed description of the changes, motivations, or context.
+Description:
 
 # Issue: (Link to issue or ID if applicable)
 
